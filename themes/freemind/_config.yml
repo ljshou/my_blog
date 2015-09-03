@@ -1,0 +1,71 @@
+slogan: "CHANCES FAVOR PREPARED MIND."
+
+menu:
+  - title: ARCHIVES
+    url: archives
+    intro: "All the articles."
+    icon: "fa fa-archive"
+  - title: CATEGORIES
+    url: categories
+    intro: "All the categories."
+    icon: "fa fa-folder"
+  - title: TAGS
+    url: tags
+    intro: "All the tags."
+    icon: "fa fa-tags"
+  - title: BOOKLIST
+    url: booklist
+    intro: "booklist."
+    icon: "fa fa-archive"
+  - title: BOOKMARK
+    url: bookmark
+    intro: "bookmark."
+    icon: "fa fa-archive"
+  - title: ABOUT
+    url: about
+    intro: "About me."
+    icon: "fa fa-user"
+  - title: RSS
+    url: atom.xml
+    intro: "Rss feed."
+    icon: "fa fa-rss"
+
+links:
+  - title: "My Github"
+    url: http://www.github.com/ljshou
+    intro: "My Github account."
+    icon: "fa fa-github"
+  - title: "My StackOverflow"
+    url: https://stackoverflow.com/users/4166195/ljshou/
+    intro: "My StackOverflow account."
+    icon: "fa fa-stack-exchange"
+  - title: "My Weibo"
+    url: http://weibo.com/u/1508262025?from=profile&wvr=5&loc=infdomain 
+
+    intro: "My Weibo account."
+    icon: "fa fa-weibo"
+  - title: Freemind
+    url: https://github.com/wzpan/freemind/
+    intro: "Freemind's Github repository."
+    icon: "fa fa-github"
+
+
+widgets:
+- search
+- links
+- category
+- tagcloud
+- recent_posts  
+- clustermaps
+
+rss: atom.xml 
+fancybox: true
+favicon: favicon.png
+google_analytics: 
+
+plugins:
+- hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
