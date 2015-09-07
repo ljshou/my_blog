@@ -6,7 +6,7 @@ tags: Shell
 最近在看 Linux 程序设计，准备写成一个系列。把每天学到的记录下来。
 以实际的例子为主。
 <!--more-->
-##一、条件语句
+## 一、条件语句
 ### if 语句
 语法
 > ```sh
@@ -87,7 +87,7 @@ esac
 exit 0
 ```
 
-##二、循环语句
+## 二、循环语句
 ### for 语句
 + case1: 固定字符串的for循环
 ```sh
@@ -144,7 +144,7 @@ until [ $trythis = "secret" ]; do
 done
 ```
 
-##二、其他
+## 二、其他
 ### And 和 Or
 ```sh
 statement && statement

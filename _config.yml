@@ -8,7 +8,7 @@ subtitle:
 description:
 author: L.J.SHOU
 email: shoulinjun@126.com
-language:
+language: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -75,18 +75,19 @@ pagination_dir: page
 
 # Disqus
 # disqus_shortname:
+duoshuo_shortname: shoulinjun
 
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: freemind
+theme: minos
 exclude_generator:
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
-  repository: git@gitcafe.com:ljshou/ljshou.git
+  type: git
+  repo: git@gitcafe.com:ljshou/ljshou.git
   branch: gitcafe-pages
 
 plugins:
@@ -98,3 +99,11 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+
+widgets:
+- search
+- links
+- category
+- tagcloud
+- recent_posts  
+- clustermaps

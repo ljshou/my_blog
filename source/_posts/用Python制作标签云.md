@@ -6,10 +6,10 @@ tags: python
 《Learn Python---1. TagCloud using Python》
 最近在学Python, 确实是一门很好学习的语言。准备做几个有意思的小项目。
 <!--more-->
-###效果图
+### 效果图
 ![](http://ljshou.qiniudn.com/tagcloud.png)
 
-###TagCloud 类代码
+### TagCloud 类代码
 用法如下：
 + 输入： 一个list, 包含多个(word, frequency)的元组
 + 输出： outputHTML(name)函数用于输出HTML文件

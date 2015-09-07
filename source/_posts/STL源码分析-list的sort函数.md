@@ -95,7 +95,7 @@ void ListSort(ListNode* & list)
 现在相比大家对算法有了一个全面的认识。STL 库正是 利用64个链表，实现了上图中的算法。
 这个算法能够排序的总数是 2^65-2 个数，应该够用了。
 
-###SGI STL 的源代码（选自 STL 源码分析）如下：
+### SGI STL 的源代码（选自 STL 源码分析）如下：
 ```cpp
 // list 不能使用 STL 算法 sort ()  
 // 因为 STL 算法 sort() 只接受 RandomAccessIterator  

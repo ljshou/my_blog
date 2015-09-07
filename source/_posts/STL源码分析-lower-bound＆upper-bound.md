@@ -96,7 +96,7 @@ _ForwardIter __lower_bound(_ForwardIter __first, _ForwardIter __last,
 }  
 ```
 
-###lower_bound的一个应用：
+### lower_bound的一个应用：
 最长递增子序列问题：分析见  http://blog.csdn.net/shoulinjun/article/details/13775177
 代码如下：
 ```cpp

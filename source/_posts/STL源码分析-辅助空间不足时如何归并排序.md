@@ -18,7 +18,7 @@ tags:
 STL implace_merge 函数在其实现中分别考虑了上述三种情况，并且尽可能地使效率比较高。
 记号：长度为 m 的有序数组 A， 长度为 n 的有序数组 B，
 
-####Case 1: buffer 能够容纳其中的一个有序数组
+#### Case 1: buffer 能够容纳其中的一个有序数组
 1. 能够容纳 序列 1 [first, middle)
 ![](http://ljshou.qiniudn.com/merge1.png)
 这时候只要先把 [first, middle) 拷贝到 [buffer, end_buffer) 中，
@@ -82,7 +82,7 @@ _BidirectionalIter3 __merge_backward(_BidirectionalIter1 __first1,
 }  
 ```
 
-###Case 2: buffer 大小不足以容纳 [first, middle) 和 [middle，last)
+### Case 2: buffer 大小不足以容纳 [first, middle) 和 [middle，last)
 
 上面的两种思路其实挺巧的，但是现在buffer 更小，怎么办？？  
 
@@ -158,5 +158,5 @@ void __merge_adaptive(_BidirectionalIter __first,
 ```
 
 
-####参考资料：
+#### 参考资料：
 侯捷， 《STL 源码分析》
