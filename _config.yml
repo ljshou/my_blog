@@ -86,9 +86,12 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@gitcafe.com:ljshou/ljshou.git
-  branch: gitcafe-pages
+  - type: git
+    repo: git@gitcafe.com:ljshou/ljshou.git
+    branch: gitcafe-pages
+  - type: git
+    repo: git@github.com:ljshou/ljshou.github.io.git
+    branch: master
 
 plugins:
 - hexo-generator-feed

@@ -22,7 +22,7 @@ if __name__ == '__main__':
     tg.outputHTML('testFile') #testFile.html is generated
 ```
 
-```
+```py
 class TagCloud:
     def __init__(self, pairs):
         '''pairs is a list consisting of pairs of (word, frequency), like
