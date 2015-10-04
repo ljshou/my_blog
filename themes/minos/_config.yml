@@ -1,0 +1,18 @@
+# Header
+logo_text: # Add text logo instead of logo image
+menu:
+  Home: /
+  Archives: archives
+  Categories: categories
+  Tags: tags
+  About: about
+duoshuo_shortname: shoulinjun
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
